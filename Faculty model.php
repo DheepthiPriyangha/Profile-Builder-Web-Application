@@ -526,9 +526,9 @@ Faculty Profile
     <h4>Reviews</h4>
     <?php
     // Establish connection to the database
-    $host = "localhost";
-    $username = "root";
-    $password = "";
+    $host = "dheepthi.mysql.database.azure.com";
+    $username = "cse20217root";
+    $password = "Dheepthi@123";
     $database = "signup";
 
     $conn = new mysqli($host, $username, $password, $database);
