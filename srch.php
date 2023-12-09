@@ -58,10 +58,10 @@
             // Check if the search form is submitted
             if (isset($_POST['submit'])) {
                 // Establish database connection
-                $servername = "localhost";
-                $username = "root";
-                $password = '';
-                $dbname = "signup";
+    $servername = "dheepthi.mysql.database.azure.com";
+    $username = "cse20217root";
+    $password = "Dheepthi@123";
+    $dbname = "signup";
                 $conn = new mysqli($servername, $username, $password, $dbname);
 
                 // Check for connection errors
