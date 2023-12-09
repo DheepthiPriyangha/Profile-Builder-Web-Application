@@ -1,7 +1,8 @@
 <?php
-$host = "localhost";
-$user = "root";
-$password = '';
+    $host = "dheepthi.mysql.database.azure.com";
+    $user = "cse20217root";
+    $password = "Dheepthi@123";
+   
 $db_name = "signup";
 
 $con = mysqli_connect($host, $user, $password, $db_name);
