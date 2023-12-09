@@ -7,10 +7,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $issue = $_POST['issue'];
 
     // Create a connection to the database
-    $servername = "localhost"; // Replace with your server name
-    $username = "root"; // Replace with your username
-    $password = ""; // Replace with your password
-    $dbname = "signup"; // Replace with your database name
+    $servername = "dheepthi.mysql.database.azure.com";
+    $username = "cse20217root";
+    $password = "Dheepthi@123";
+    $dbname = "signup";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
