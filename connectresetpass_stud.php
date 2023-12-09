@@ -6,10 +6,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Validate the email address (you can add more validation checks if required)
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
         // Connect to the database
-        $host = "localhost";
-        $user = "root";
-        $password = '';
-        $db_name = "signup";
+    $host = "dheepthi.mysql.database.azure.com";
+    $user = "cse20217root";
+    $password = "Dheepthi@123";
+    $db_name = "signup";
 
         $con = mysqli_connect($host, $user, $password, $db_name);
         if (mysqli_connect_errno()) {
