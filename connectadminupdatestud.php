@@ -13,7 +13,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $researchexperience = $_POST['researchexperience'];
     $technicalskills = $_POST['technicalskills'];
     $areaofinterest = $_POST['areaofinterest'];
+    $localhost = "dheepthi.mysql.database.azure.com";
+    $root = "cse20217root";
 
+   
     // Database connection
     $conn = new mysqli('localhost', 'root', '', 'signup');
     if ($conn->connect_error) {
